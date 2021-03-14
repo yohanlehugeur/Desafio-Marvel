@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Herois favoritos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/favicon-16x16.png" type="images/png" sizes="16x16" >
+
+  </head>
+
+  <body>
+    <!-- Header do site -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand">Marvel</a>
+        <button class="navbar-7toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse bd-highlight" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Herois</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="estranho.html">Dr. Estranho</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="loki.html">Loki</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  <main>      
+    <ul>
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-sm coluna-heroi" id="estranho" onclick="location.href='estranho.html'" style="cursor:pointer">
+            <h2 class="nome-heroi">Dr. Estranho</h2>
+            <img src="images/estranho.jpg" class="img-heroi">
+            <p class="descricao">Descrição</p>
+            <p class="txt-heroi">Outrora um cirurgião muito bem-sucedido, mas notavelmente egoísta, o Dr. Stephen Strange sofreu um terrível acidente que o levou a evoluir de maneiras que ele nunca poderia ter previsto.</p>
+          </div>
+
+          <div class="col-sm coluna-heroi" onclick="location.href='loki.html'" style="cursor:pointer">
+            <h2 class="nome-heroi" >Loki</h2>
+            <img src="images/loki.jpg" class="img-heroi">
+            <p class="descricao">Descrição</p>
+            <p class="txt-heroi">Loki, Príncipe de Asgard, Odinson, herdeiro legítimo de Jotunheim e Deus do Mal, está sobrecarregado com um propósito glorioso. Seu desejo de ser um rei o leva a semear o caos em Asgard. Em sua ânsia de poder, ele estende seu alcance à Terra.</p>
+          </div>
+        </div>
+      </div>
+    </ul> 
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
